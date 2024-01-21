@@ -1,0 +1,76 @@
+.Contact {
+  margin: 0 20rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.Contact > h2 {
+  color: var(--lightYellow);
+  text-decoration: underline;
+}
+
+.Contact > * {
+  display: flex;
+  align-items: center;
+}
+
+.Contact > * > * {
+  padding: 0 1rem;
+}
+
+.Form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 2rem;
+  border: 0.5rem solid var(--lightYellow);
+  border-radius: 1rem;
+  background: black;
+  align-self: flex-start;
+  padding: 3rem;
+  margin: 5rem 0;
+}
+
+.Form > input,
+.Form > textarea {
+  width: 100%;
+}
+
+.Form > * {
+  background: black;
+  font-family: inherit;
+  color: var(--darkYellow);
+  border: 1px solid var(--lightYellow);
+  border-radius: 0.5rem;
+  padding: 1rem;
+  margin: 0.5rem 0;
+}
+
+.Form > h3 {
+  border: none;
+  text-decoration: underline;
+}
+
+.Inactive {
+  pointer-events: none;
+  opacity: 0.5;
+}
+
+.Notification {
+  background: var(--lightYellow);
+  color: black;
+  border-radius: 1rem;
+  display: flex;
+  align-items: center;
+  align-self: flex-start;
+}
+
+.Notification > * {
+  padding: 0 2rem;
+}
+
+@media (max-width: 600px) {
+  .Contact {
+    margin: 0 5rem;
+  }
+}

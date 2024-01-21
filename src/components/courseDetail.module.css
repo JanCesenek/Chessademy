@@ -1,0 +1,38 @@
+.CourseDetail {
+  margin: 0 20rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: rgba(0, 0, 0, 0.5);
+  border-radius: 1rem;
+  padding: 5rem;
+}
+
+.Img {
+  max-width: 50rem;
+  max-height: 50rem;
+  width: auto;
+  height: auto;
+}
+
+.Back {
+  text-decoration: underline;
+  color: var(--lightYellow);
+}
+
+.Back:hover {
+  cursor: pointer;
+}
+
+@media (max-width: 900px) {
+  .Img {
+    max-width: 40rem;
+    max-height: 40rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .CourseDetail {
+    margin: 0 5rem;
+  }
+}

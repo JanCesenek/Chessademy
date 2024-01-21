@@ -1,0 +1,37 @@
+.Pieces {
+  margin: 0 20rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.Piece {
+  display: flex;
+  flex-direction: column;
+}
+
+.Piece > h1 {
+  font-weight: 700;
+  text-decoration: underline;
+  align-self: center;
+}
+
+.Piece > h1,
+.Piece > h2,
+.Piece > h3 {
+  text-decoration: underline;
+  color: var(--lightYellow);
+}
+
+.Img {
+  max-width: 50rem;
+  max-height: 50rem;
+  width: auto;
+  height: auto;
+  align-self: center;
+}
+
+@media (max-width: 600px) {
+  .Pieces {
+    margin: 0 5rem;
+  }
+}

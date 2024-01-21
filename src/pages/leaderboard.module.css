@@ -1,0 +1,42 @@
+.Leaderboard {
+  margin: 0 20rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.Leaderboard > h1 {
+  font-weight: 700;
+  text-decoration: underline;
+  align-self: center;
+  color: var(--lightYellow);
+}
+
+.Table {
+  font-size: 1.3rem;
+  display: grid;
+  align-items: center;
+  border: 5px solid var(--midYellow);
+  align-self: center;
+  background: black;
+}
+
+.TableHeading {
+  font-weight: 700;
+}
+
+.Table > * {
+  display: grid;
+  grid-template-columns: 1fr 3fr 2fr 1fr 1fr;
+  grid-column: 1 / -1;
+}
+
+.Table > * > * {
+  border: 1px solid var(--lightYellow);
+  padding: 1rem;
+}
+
+@media (max-width: 600px) {
+  .Leaderboard {
+    margin: 0 5rem;
+  }
+}

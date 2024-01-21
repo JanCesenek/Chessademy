@@ -1,0 +1,37 @@
+.GameStages {
+  margin: 0 20rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.GameStage {
+  display: flex;
+  flex-direction: column;
+}
+
+.GameStage > h1 {
+  font-weight: 700;
+  text-decoration: underline;
+  align-self: center;
+}
+
+.GameStage > h1,
+.GameStage > h2,
+.GameStage > h3 {
+  text-decoration: underline;
+  color: var(--lightYellow);
+}
+
+.Img {
+  max-width: 40rem;
+  max-height: 40rem;
+  width: auto;
+  height: auto;
+  align-self: center;
+}
+
+@media (max-width: 600px) {
+  .GameStages {
+    margin: 0 5rem;
+  }
+}
