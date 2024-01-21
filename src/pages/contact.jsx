@@ -38,7 +38,9 @@ const Contact = () => {
       <div>
         <RiMapPin2Fill />
         <p>
-          <a href="https://www.google.cz/maps/place/Cotton+Business+Center,+Phoenix,+Arizona+85040,+Spojené+státy+americké/@33.4035804,-111.9919983,16z/data=!3m1!4b1!4m15!1m8!3m7!1s0x872b12ed50a179cb:0x8c69c7f8354a1bac!2zUGhvZW5peCwgQXJpem9uYSwgU3BvamVuw6kgc3TDoXR5IGFtZXJpY2vDqQ!3b1!8m2!3d33.4483771!4d-112.0740373!16zL20vMGQzNXk!3m5!1s0x872b0f11c9253497:0x143764431fcec11c!8m2!3d33.4027649!4d-111.9865295!16s%2Fg%2F1tk6_zlq?entry=ttu">
+          <a
+            href="https://www.google.cz/maps/place/Cotton+Business+Center,+Phoenix,+Arizona+85040,+Spojené+státy+americké/@33.4035804,-111.9919983,16z/data=!3m1!4b1!4m15!1m8!3m7!1s0x872b12ed50a179cb:0x8c69c7f8354a1bac!2zUGhvZW5peCwgQXJpem9uYSwgU3BvamVuw6kgc3TDoXR5IGFtZXJpY2vDqQ!3b1!8m2!3d33.4483771!4d-112.0740373!16zL20vMGQzNXk!3m5!1s0x872b0f11c9253497:0x143764431fcec11c!8m2!3d33.4027649!4d-111.9865295!16s%2Fg%2F1tk6_zlq?entry=ttu"
+            target="_blank">
             Cotton Business Center, Phoenix, AZ, 85040, USA
           </a>
         </p>

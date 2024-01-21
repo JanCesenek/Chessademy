@@ -62,7 +62,7 @@ const Home = () => {
       price: 14.99,
       image: chessCourse06,
       description:
-        "By far the most frequent response for 1. e4 in modern history. Let's dife deeper into why it is so popular!",
+        "By far the most frequent response for 1. e4 in modern history. Let's dive deeper into why it is so popular!",
     },
   ];
 
